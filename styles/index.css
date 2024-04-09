@@ -7,3 +7,10 @@ h1 {
 h2 {
 color: #9000b3ff; 
 }
+p {
+    color: #b3c2f2ff;
+}
+.luxeLogo {
+display:flex;
+justify-content: center;
+}
