@@ -1,19 +1,95 @@
 html {
     background-color: black;
 }
+
 h1 {
     color: #735cddff;
 }
+
 h2 {
-color: #9000b3ff; 
-}
+    color: #9000b3ff;
+    transition-property: font-size;
+    transition-duration: 2s;
+    }
+     h2:hover {
+        font-size: 100px;
+     }
+
 p {
     color: #b3c2f2ff;
 }
+
 .luxeLogo {
-display:flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
+
 }
+
 h4 {
     color: #97dffcff;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between
+}
+
+#heropic {
+    display: flex;
+    justify-content: center;
+}
+
+/* .image1 {
+    background-color: black;
+    transition-property: width, height;
+    transition-duration: 5s;
+}
+
+.image1:hover {
+    width: 600px;
+    height: 100px; */
+
+.image1 {
+    /* background-color: red; */
+    height: 100px;
+    width: 100px;
+    transition-duration: 3s;
+}
+
+.image1:hover {
+    transform: rotate(360deg);
+}
+
+.image2 {
+    /* background-color: red; */
+    height: 100px;
+    width: 100px;
+    transition-duration: 3s;
+}
+
+.image2:hover {
+    transform: rotate(360deg);
+    font-size: 100px;
+}
+
+.image3 {
+    /* background-color: red; */
+    height: 100px;
+    width: 100px;
+    transition-duration: 3s;
+}
+
+.image3:hover {
+    transform: rotate(360deg);
+}
+
+.image4 {
+    /* background-color: red; */
+    height: 100px;
+    width: 100px;
+    transition-duration: 3s;
+}
+
+.image4:hover {
+    transform: rotate(360deg);
 }
